@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-04T18:16:25 CEST" name="Tests" finished-at="2024-07-04T18:16:41 CEST" duration-ms="16361">
+    <groups>
+    </groups>
+    <test started-at="2024-07-04T18:16:25 CEST" name="Test1" finished-at="2024-07-04T18:16:41 CEST" duration-ms="16361">
+      <class name="com.demoqa.tests.forms.StudentFormTest">
+        <test-method is-config="true" signature="startBrowser(java.lang.reflect.Method)[pri:0, instance:com.demoqa.tests.forms.StudentFormTest@be35cd9]" started-at="2024-07-04T18:16:25 CEST" name="startBrowser" finished-at="2024-07-04T18:16:32 CEST" duration-ms="6544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demoqa.tests.forms.StudentFormTest.createStudentAccountPositiveTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.demoqa.tests.forms.StudentFormTest@be35cd9]" started-at="2024-07-04T18:16:32 CEST" name="precondition" finished-at="2024-07-04T18:16:32 CEST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="createStudentAccountPositiveTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.tests.forms.StudentFormTest@be35cd9]" started-at="2024-07-04T18:16:32 CEST" name="createStudentAccountPositiveTest" finished-at="2024-07-04T18:16:40 CEST" duration-ms="7465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alice]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jackson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createStudentAccountPositiveTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demoqa.tests.forms.StudentFormTest@be35cd9]" started-at="2024-07-04T18:16:40 CEST" name="tearDown" finished-at="2024-07-04T18:16:41 CEST" duration-ms="1713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createStudentAccountPositiveTest status=SUCCESS method=StudentFormTest.createStudentAccountPositiveTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoqa.tests.forms.StudentFormTest@be35cd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoqa.tests.forms.StudentFormTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Tests -->
+</testng-results>
